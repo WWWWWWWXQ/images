@@ -1,5 +1,6 @@
 # !/usr/bin
 
 git add .
-git commit -m "update"
+cur_time="`date "+%Y-%m-%d %H:%M:%S"`"
+git commit -m "updated at $cur_time"
 git push
